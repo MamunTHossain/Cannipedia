@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>
+            SQL front end
+        </title>
+    </head>
+    <body>
+        <button onclick="fetch_suppliers()">Click to see suppliers!</button>
+        <button onclick="fetch_strains()">Click to see strains!</button>
+        <button onclick="fetch_highselling()">Click to see High selling!</button>
+        <button onclick="fetch_products()">Click to see products!</button>
+        <button onclick="fetch_usersAge()">Click to see Users Age!</button>
+        <button onclick="fetch_avgrating()">Click to see Average Rating!</button>
+        <button onclick="fetch_highreview()">Click to see High Review!</button>
+        <button onclick="fetch_bcproduct()">Click to see Who bought from BC!</button>
+        <div id="suppliers"></div>
+
+        <script>
+            function fetch_suppliers() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/suppliers", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send(); 
+            }
+           
+            function fetch_strains() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/strains", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send(); 
+            }
+
+            
+            function fetch_strains() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/strains", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+
+            function fetch_highselling() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/highselling", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+            function fetch_products() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/products", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+            function fetch_usersAge() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/usersAge", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+
+            function fetch_avgrating() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/avgrating", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+
+            function fetch_highreview() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/highreview", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+
+            function fetch_bcproduct() {
+                xhr = new XMLHttpRequest();
+
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("suppliers").innerHTML = this.responseText;
+                    }
+                };
+                xhr.open("GET", "http://localhost:3000/bcproduct", true);  
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send();     
+            }
+
+
+        </script>
+    </body>
+</html>
