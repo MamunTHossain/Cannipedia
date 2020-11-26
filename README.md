@@ -23,7 +23,7 @@ ________________________________________________
 
 5. Open a new cmd window after saving the path value, allowing node and npm to be recognized
 
-6. Download the repository from the master branch
+6. Download the repository (project.7zip) from the master branch
 
 7. Apply changes to your password in the repository to allow you to connect to the database
 
