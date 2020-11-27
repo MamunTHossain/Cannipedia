@@ -1,0 +1,11 @@
+ALTER TABLE `mydb`.`products` 
+ADD COLUMN `Price` DECIMAL(5) NULL AFTER `SupplierID`
+
+
+
+UPDATE `mydb`.`products` SET `Price` = '50' WHERE (`ProductID` = '25');
+UPDATE `mydb`.`products` SET `Price` = '100' WHERE (`ProductID` = '42');
+UPDATE `mydb`.`products` SET `Price` = '200' WHERE (`ProductID` = '47');
+UPDATE `mydb`.`products` SET `Price` = '75' WHERE (`ProductID` = '69');
+UPDATE `mydb`.`products` SET `Price` = '90' WHERE (`ProductID` = '71');
+UPDATE `mydb`.`products` SET `Price` = '125' WHERE (`ProductID` = '88');
