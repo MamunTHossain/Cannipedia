@@ -23,21 +23,32 @@ ________________________________________________
 
 5. Open a new cmd window after saving the path value, allowing node and npm to be recognized
 
-6. Download the repository (project.7zip) from the master branch
+6. Download all the repositories from the master branch
 
-7. Apply changes to your password in the repository to allow you to connect to the database
+7. When opening mydb.sql, alongside open updateproduct.txt and apply the two different insertions to insert the 
+required data.
 
-8. Type in cd: "file path" to open that path's directory
+8. Once that is completed, open the html-frontend.7z by extracting the files. 
 
-9. Open cmd window and type npm install express
+9. Have cyberduck open, and insert your server details under SSH, your name and password
 
-10. Close cmd and open a new cmd window and type npm install cors
+10. Have a public_html folder ready, and then copy and paste all the html-frontend.7z files into that folder, creating the website
 
-11. Download the separate front end pages and enter your SSH into cyberduck, and input your credentials and copy
+11. Unzip the project.7zip and open in your desired IDE (preferably visual studio coode)
+
+12. Apply changes to your password in the repository to allow you to connect to the database
+
+13. Type in cd: "file path" to open that path's directory
+
+14. Open cmd window and type npm install express
+
+15. Close cmd and open a new cmd window and type npm install cors
+
+16. Download the separate front end pages and enter your SSH into cyberduck, and input your credentials and copy
 and paste all the folders into your public_html folder
 
-12. Open a new cmd window and type in cd and the file path where you had downloaded the repository
+17. Open a new cmd window and type in cd and the file path where you had downloaded the repository
 
-13. Press enter and should be connected and listening
+18. Press enter and should be connected and listening
 
 And the databases will be connected!
